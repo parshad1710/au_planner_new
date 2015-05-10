@@ -1,0 +1,3 @@
+lsusb -D /dev/usb/...
+
+ls /dev/ tab tab check for video[X] where X is the usb camera 

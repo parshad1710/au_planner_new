@@ -1,0 +1,8 @@
+<launch>
+	
+	<node name="rviz" type="rviz" pkg="rviz"/>
+	<node name="tf" type="static_transform_publisher" pkg="tf" args="-2.5 -2.5 0.0 0.0 0.0 0.0 map my_frame 100">
+	</node>
+
+	<!-- node name="border_point_pub" type="border_point_node" pkg="au_planner"/ -->
+</launch>

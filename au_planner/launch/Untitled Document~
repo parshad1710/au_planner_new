@@ -1,0 +1,7 @@
+<launch>
+	
+	<node name="rviz" type="rviz" pkg="rviz"/>
+	<node name="tf" type="static_transform_publisher" pkg="tf" arg="0.0 0.0 0.0 0.0 0.0 0.0 map my_frame 100 ">
+	</node>
+
+</launch>
