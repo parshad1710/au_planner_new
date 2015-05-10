@@ -168,6 +168,7 @@ void RobotFeedback(const geometry_msgs::Point::ConstPtr& robot_feedback)
 			else{
 				diff_angle = 360 - sum_angles;  //Counter-Clockwise
 			}
+
 		}
 		
 		if(diff_x<g_resolution/3 && diff_y<g_resolution/3){
