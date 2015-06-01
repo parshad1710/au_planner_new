@@ -2,7 +2,6 @@
 using namespace std;
 #include <au_planner/obstacle.h>
  
-// Define Infinite (Using INT_MAX caused overflow problems)
 #define INF 10000
 
 // Given three colinear points p, q, r, the function checks if
@@ -94,7 +93,6 @@ bool Obstacle::isInside(Obstacles polygon, int n, Point q)
 				std::cout<<"\n"<<i<<"\n";
     } while (i != 0);
  		std::cout<<"Completed count : "<<count<<std::endl;
-    // Return true if count! is odd, false otherwise
-		if(count!=0 && count%2!=0) return true;  // Same as (count%2 == 1)
+ 		if(count!=0 && count%2!=0) return true;  // Same as (count%2 == 1)
 		else return false;
 }
